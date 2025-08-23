@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.infrastructure\\infrastructureregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\infrastructureregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Program.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Program.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Program.cs",
+              "RelativeToolTip": "Ecom.API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:00:22.87Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Mapping\\MappingProfile.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Ecom.API\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T10:10:14.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Ecom.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA1wGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:24:07.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Ecom.API\\appsettings.json",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\appsettings.json",
+              "RelativeToolTip": "Ecom.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T19:59:07.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InfrastructureRegisteration.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAABSwAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:42:46.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
