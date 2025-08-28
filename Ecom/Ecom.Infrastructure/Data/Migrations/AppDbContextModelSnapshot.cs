@@ -77,6 +77,20 @@ namespace Ecom.Infrastructure.Data.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("Photos");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "test",
+                            ProductId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "test2",
+                            ProductId = 1
+                        });
                 });
 
             modelBuilder.Entity("Ecom.Core.Entity.Product.Product", b =>
@@ -99,7 +113,10 @@ namespace Ecom.Infrastructure.Data.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<decimal>("Price")
+                    b.Property<decimal>("NewPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("OldPrice")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
@@ -115,7 +132,8 @@ namespace Ecom.Infrastructure.Data.Migrations
                             CategoryId = 2,
                             Description = "iphone made by Apple",
                             Name = "Iphone",
-                            Price = 5000.50m
+                            NewPrice = 5000.50m,
+                            OldPrice = 6000m
                         },
                         new
                         {
@@ -123,35 +141,29 @@ namespace Ecom.Infrastructure.Data.Migrations
                             CategoryId = 1,
                             Description = "TV made by Samsung",
                             Name = "TV",
-                            Price = 1000.50m
+                            NewPrice = 1000.50m,
+                            OldPrice = 2000m
                         });
                 });
 
             modelBuilder.Entity("Ecom.Core.Entity.Product.Photo", b =>
                 {
-                    b.HasOne("Ecom.Core.Entity.Product.Product", "Product")
+                    b.HasOne("Ecom.Core.Entity.Product.Product", null)
                         .WithMany("Photos")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Ecom.Core.Entity.Product.Product", b =>
                 {
                     b.HasOne("Ecom.Core.Entity.Product.Category", "Category")
-                        .WithMany("Products")
+                        .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("Ecom.Core.Entity.Product.Category", b =>
-                {
-                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("Ecom.Core.Entity.Product.Product", b =>

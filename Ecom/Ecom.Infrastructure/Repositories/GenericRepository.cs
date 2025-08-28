@@ -39,9 +39,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public async Task<T> GetByIdAsync(int id)
     {
-        var entity = await _context.Set<T>().FindAsync(id)??
-            throw new KeyNotFoundException($"Entity with id {id} not found");
-
+        var entity = await _context.Set<T>().FindAsync(id);
         return entity;
     }
     public async Task<T> GetByIdAsync(int id, params Expression<Func<T, object>>[] includes)

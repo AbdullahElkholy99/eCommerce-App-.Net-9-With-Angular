@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.infrastructure\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A64EC37-4730-4828-A664-4307D2F2367B}|Ecom.Core\\Ecom.Core.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A64EC37-4730-4828-A664-4307D2F2367B}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{968ACDC4-730F-4DA6-B043-FCAC6E1648CA}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|h:\\01_dotnet\\api\\my projects\\ecommerce\\api\u002Bangular\\ecommerce-app-.net-9-with-angular\\ecom\\ecom.infrastructure\\infrastructureregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95440C73-CC64-430E-B543-3CFD3E196937}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\infrastructureregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Program.cs",
               "RelativeDocumentMoniker": "Ecom.API\\Program.cs",
               "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Program.cs",
               "RelativeToolTip": "Ecom.API\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T20:00:22.87Z",
               "IsPinned": true,
@@ -48,54 +48,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Ecom.API\\Mapping\\MappingProfile.cs",
-              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Ecom.API\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Ecom.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAiwHMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T10:10:14.639Z",
+              "WhenOpened": "2025-08-28T22:43:03.427Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "Ecom.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "Ecom.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAA1wGMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PhotoRepository.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T09:24:07.013Z",
+              "WhenOpened": "2025-08-28T23:30:11.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Ecom.API\\appsettings.json",
-              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.API\\appsettings.json",
-              "RelativeToolTip": "Ecom.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-22T19:59:07.856Z",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T23:29:51.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InfrastructureRegisteration.cs",
-              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\InfrastructureRegisteration.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\InfrastructureRegisteration.cs",
-              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\InfrastructureRegisteration.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\InfrastructureRegisteration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAABSwAsAAABAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "H:\\01_DotNet\\API\\My Projects\\eCommerce\\API\u002BAngular\\eCommerce-App-.Net-9-With-Angular\\Ecom\\Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:42:46.205Z",
+              "WhenOpened": "2025-08-28T23:17:58.767Z",
               "EditorCaption": ""
             }
           ]

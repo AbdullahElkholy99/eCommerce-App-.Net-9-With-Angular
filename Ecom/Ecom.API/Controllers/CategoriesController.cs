@@ -1,4 +1,5 @@
 using AutoMapper;
+using Ecom.API.Helper;
 using Ecom.Core.DTO;
 using Ecom.Core.Entity.Product;
 using Ecom.Core.Interfaces;
@@ -17,7 +18,7 @@ public class CategoriesController : BaseController
 
     //----------------- Create Operations ----------------
     [HttpPost("add-category")]
-    public async Task<IActionResult> AddCategory([FromBody] CategoryForCreationDTO categoryDto)
+    public async Task<IActionResult> Add([FromBody] CategoryForCreationDTO categoryDto)
     {
         try
         {
@@ -31,32 +32,31 @@ public class CategoriesController : BaseController
 
             await _unitOfWork.CategoryRepository.AddAsync(category);
 
-            return Ok(new {Message="Category added successfully", CategoryId = category.Id});
+            return Ok(new ResponseAPI( 200,$"Category added successfully CategoryId ={ category.Id}" ));
         }
         catch (Exception ex)
         {
-            return StatusCode(500, $"Internal server error: {ex.Message}");
+            return BadRequest(ex.Message);
         }
     }
 
     //----------------- Read Operations ----------------
     [HttpGet("get-all")]
-    public async Task<IActionResult> GetAllCategories()
+    public async Task<IActionResult> GetAll()
     {
         try
         {
-            var categories = await _unitOfWork.CategoryRepository.GetAllAsync();
+            var categories = 
+                await _unitOfWork.CategoryRepository.GetAllAsync();
            
-            if (categories == null || !categories.Any())
-            {
-                return NotFound("No categories found.");
-            }
+            if (categories is null || !categories.Any())
+                return BadRequest( new ResponseAPI(400));
 
             return Ok(categories);
         }
         catch (Exception ex)
         {
-            return StatusCode(500, $"Internal server error: {ex.Message}");
+            return BadRequest(ex.Message);
         }
        
     }
@@ -67,22 +67,20 @@ public class CategoriesController : BaseController
         {
             var category = await _unitOfWork.CategoryRepository.GetByIdAsync(id);
 
-            if (category == null  )
-            {
-                return NotFound("No category found.");
-            }
-
+            if (category is null  )
+                return BadRequest(new ResponseAPI(400,$"Not Found Category Id = {id}"));
+                
             return Ok(category);
         }
         catch (Exception ex)
         {
-            return StatusCode(500, $"Internal server error: {ex.Message}");
+            return BadRequest(ex.Message);
         }
     }
 
     //----------------- Update Operations ----------------
     [HttpPut("update-category")]
-    public async Task<IActionResult> UpdateCategory([FromBody] CategoryForUpdateDTO categoryDto)
+    public async Task<IActionResult> Update([FromBody] CategoryForUpdateDTO categoryDto)
     {
         try
         {
@@ -98,33 +96,30 @@ public class CategoriesController : BaseController
 
             await _unitOfWork.CategoryRepository.UpdateAsync(existingCategory);
 
-            return Ok("Category updated successfully.");
+            return Ok(new ResponseAPI(200, $"Category updated successfully"));
+
         }
         catch (Exception ex)
         {
-            return StatusCode(500, $"Internal server error: {ex.Message}");
+            return BadRequest(new ResponseAPI(400, ex.Message));
         }
     }
 
     //----------------- Delete Operations ----------------
     [HttpDelete("delete-category/{id}")]
-    public async Task<IActionResult> DeleteCategory(int id)
+    public async Task<IActionResult> Delete(int id)
     {
         try
         {
             await _unitOfWork.CategoryRepository.DeleteAsync(id);
 
-            return Ok("Category deleted successfully.");
+            return Ok(new ResponseAPI( 200,"Category deleted successfully."));
         }
         catch (Exception ex)
         {
-            return StatusCode(500, $"Internal server error: {ex.Message}");
+            return BadRequest(new ResponseAPI(400, ex.Message));
         }
     }
-
-
-
-
 
 
 }

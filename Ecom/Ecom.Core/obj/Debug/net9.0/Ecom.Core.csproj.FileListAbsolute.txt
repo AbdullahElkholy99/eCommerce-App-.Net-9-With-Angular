@@ -10,3 +10,4 @@ H:\01_DotNet\API\My Projects\eCommerce\API+Angular\eCommerce-App-.Net-9-With-Ang
 H:\01_DotNet\API\My Projects\eCommerce\API+Angular\eCommerce-App-.Net-9-With-Angular\Ecom\Ecom.Core\obj\Debug\net9.0\refint\Ecom.Core.dll
 H:\01_DotNet\API\My Projects\eCommerce\API+Angular\eCommerce-App-.Net-9-With-Angular\Ecom\Ecom.Core\obj\Debug\net9.0\Ecom.Core.pdb
 H:\01_DotNet\API\My Projects\eCommerce\API+Angular\eCommerce-App-.Net-9-With-Angular\Ecom\Ecom.Core\obj\Debug\net9.0\ref\Ecom.Core.dll
+H:\01_DotNet\API\My Projects\eCommerce\API+Angular\eCommerce-App-.Net-9-With-Angular\Ecom\Ecom.Core\obj\Debug\net9.0\Ecom.Core.csproj.AssemblyReference.cache

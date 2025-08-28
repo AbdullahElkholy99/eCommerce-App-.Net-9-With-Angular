@@ -8,8 +8,8 @@ public class Photo:BaseEntity<int>
 
     // Relation between photo and product (m:1)
     public int ProductId{ get; set; }
-    [ForeignKey(nameof(ProductId))]
-    public Product Product{ get; set; }
+    //[ForeignKey(nameof(ProductId))]
+    //public Product Product{ get; set; }
 
 
 

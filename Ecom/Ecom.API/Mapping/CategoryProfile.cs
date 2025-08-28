@@ -4,9 +4,9 @@ using Ecom.Core.Entity.Product;
 
 namespace Ecom.API.Mapping;
 
-public class MappingProfile : Profile
+public class CategoryProfile : Profile
 {
-    public MappingProfile()
+    public CategoryProfile()
     {
         // Add your mappings here
         CreateMap<CategoryForCreationDTO, Category>();

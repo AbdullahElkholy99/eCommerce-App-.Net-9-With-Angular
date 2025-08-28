@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Ecom.API.Controllers.CategoriesController",
-    "Method": "AddCategory",
+    "Method": "Add",
     "RelativePath": "api/Categories/add-category",
     "HttpMethod": "POST",
     "IsController": true,
@@ -17,7 +17,7 @@
   },
   {
     "ContainingType": "Ecom.API.Controllers.CategoriesController",
-    "Method": "DeleteCategory",
+    "Method": "Delete",
     "RelativePath": "api/Categories/delete-category/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -33,7 +33,7 @@
   },
   {
     "ContainingType": "Ecom.API.Controllers.CategoriesController",
-    "Method": "GetAllCategories",
+    "Method": "GetAll",
     "RelativePath": "api/Categories/get-all",
     "HttpMethod": "GET",
     "IsController": true,
@@ -59,7 +59,7 @@
   },
   {
     "ContainingType": "Ecom.API.Controllers.CategoriesController",
-    "Method": "UpdateCategory",
+    "Method": "Update",
     "RelativePath": "api/Categories/update-category",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -69,6 +69,135 @@
         "Name": "categoryDto",
         "Type": "Ecom.Core.DTO.CategoryForUpdateDTO",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.ProductsController",
+    "Method": "Add",
+    "RelativePath": "api/Products/add-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "OldPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photos",
+        "Type": "Microsoft.AspNetCore.Http.IFormFileCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.ProductsController",
+    "Method": "Delete",
+    "RelativePath": "api/Products/delete-category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Products/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.ProductsController",
+    "Method": "GetById",
+    "RelativePath": "api/Products/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.ProductsController",
+    "Method": "Update",
+    "RelativePath": "api/Products/update-product",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "OldPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photos",
+        "Type": "Microsoft.AspNetCore.Http.IFormFileCollection",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
