@@ -1,8 +1,4 @@
-﻿
-using Ecom.Core.Interfaces;
-using Ecom.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
+﻿using System.Linq.Expressions;
 
 namespace Ecom.Infrastructure.Repositories;
 
@@ -56,6 +52,10 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         return entity;
     }
 
+    public async Task<int> CountAsync()
+        => await _context.Set<T>().CountAsync();
+    
+    
     //---------------------- Update ----------------------
     public async Task UpdateAsync(T entity)
     {
@@ -69,6 +69,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         await _context.SaveChangesAsync();
     }
 
+
     //---------------------- Delete ----------------------
     public async Task DeleteAsync(int id)
     {
@@ -79,4 +80,6 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         _context.Set<T>().Remove(entity);
         await _context.SaveChangesAsync();
     }
+
+   
 }

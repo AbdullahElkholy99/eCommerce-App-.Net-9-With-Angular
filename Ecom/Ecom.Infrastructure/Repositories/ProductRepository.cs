@@ -1,10 +1,5 @@
-﻿using AutoMapper;
-using Ecom.Core.DTO;
-using Ecom.Core.Entity.Product;
-using Ecom.Core.Interfaces;
-using Ecom.Core.Services;
-using Ecom.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+﻿
+using Ecom.Core.Sharing;
 
 namespace Ecom.Infrastructure.Repositories;
 
@@ -44,6 +39,58 @@ public class ProductRepository : GenericRepository<Product>, IProductRepository
         return true;
     }
 
+
+    public async Task<IEnumerable<ProductDTO>> GetAllAsync(ProductParams productParams)
+    {
+        var query = _context.Products
+            .Include(c => c.Category)
+            .Include(p => p.Photos)
+            .AsNoTracking();
+
+        //filtering by categoryId if provided
+        if (productParams.CategoryId.HasValue)
+            query = query.Where(p => p.CategoryId == productParams.CategoryId.Value);
+
+        //Filtering By Word (Search)
+        if(!string.IsNullOrEmpty(productParams.Search))
+        {
+            var searchWords = productParams.Search.Split(' ');
+            query = query
+                .Where(m => searchWords.All(word =>
+                    m.Name.ToLower().Contains(word.ToLower()) ||
+                    m.Description.ToLower().Contains(word.ToLower())
+                ));
+
+        }
+
+
+        if (!string.IsNullOrEmpty(productParams.Sort))
+        {
+            query = productParams.Sort.ToLower() switch
+            {
+                "priceace" => query.OrderBy(p => p.NewPrice),
+                "pricedce" => query.OrderByDescending(p => p.NewPrice),
+                _ => query.OrderBy(n => n.Name)
+            };
+        }
+        else
+        {
+            // default sort if sort is null/empty
+            query = query.OrderBy(n => n.Name);
+        }
+
+        //pagination
+
+        productParams.PageNumber = productParams.PageNumber <= 0 ? 1 : productParams.PageNumber;
+        productParams.PageSize = productParams.PageSize <= 0 ? 5 : productParams.PageSize;
+        query = query
+            .Skip((productParams.PageNumber - 1) * productParams.PageNumber)
+            .Take(productParams.PageSize);
+
+        var result = _mapper.Map<List<ProductDTO>>(query);
+
+        return result;
+    }
 
     //----------------- Update Operations ----------------
     public async Task<bool> UpdateAsync(ProductForUpdateDTO ProductDto)

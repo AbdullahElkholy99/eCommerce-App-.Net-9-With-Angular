@@ -16,10 +16,10 @@ public interface IGenericRepository<T> where T : class
     Task<T> GetByIdAsync(int id);
     Task<T> GetByIdAsync(int id , params Expression<Func<T, object>>[] includes);
 
+    Task<int> CountAsync();
 
     //---------------------- Update ----------------------
     Task UpdateAsync(T entity);
-
 
     //---------------------- Delete ----------------------
     Task DeleteAsync(int id);
